@@ -1,18 +1,18 @@
 # Vehicle-Price-Prediction_through_ANPR
-LPR sometimes called ALPR (Automatic License Plate Recognition) has 3 major stages.
+    
+PROBLEM STATEMENT:
 
-License Plate Detection:
+Overview:
+This project is an Android application that recognizes the license plate of a vehicle, then uses this information to extract the registered details of the vehicle with the Regional Transport Office through web scraping and processes these details to predict the current price of the vehicle.
 
-This is the first and probably the most important stage of the system. It is at this stage that the position of the license plate is determined. The input at this stage is an image of the vehicle and the output is the license plate. In this stage, the position of the rectangular number plate in the input image is detected. Then the detected number plate is extracted out from the image, to serve as the input to the next stage i.e., Character Segmentation stage. The approach used in this work for License Plate detection is based on Otsu BInarization and Connected Component Analysis (CCA).
+Purpose:
+The purpose is to develop an Android application that integrates the vehicle prize prediction with information extraction by coming up with a system to scan the license plate of a vehicle quickly and easily with the camera of a smartphone or tablet, the app recognizes license plate within the camera image and uses the information to extract the registered details of the vehicle with the Regional Transport Office through web scraping and processes these details to predict the current price of the vehicle.
 
-Character Segmentation:
-
-It’s at this stage the characters on the license plate are mapped out and segmented into individual images. Character segmentation is the procedure of extracting the characters and numbers from the license plate image. Diverse aspects make the character segmentation task complicated, like image noise, plate frame, space mark, plate’s rotation and light variance. A number of procedures have been proposed for character segmentation to overcome these problems. After removing the plate borders in the previous step, this step starts with removing the noise from the plate. The approach used in this work for character segmentation is based on Adaptive thresholding, morphological processing and contour tracing.
-
-Character Recognition:
-
-This is where we wrap things up. The characters earlier segmented are identified here. We’ll be using machine learning for this. After the segmentation of elements (characters and numbers), the final module in the license plate recognition process is character recognition. It’s at this stage we introduce the concept of machine learning. Although there are many techniques present and applied for character recognition like statistical, syntactic and neural networks in this research, character recognition is performed by using feature extraction. We’ll be taking the path of supervised learning because we already have an idea of how As, Bs and all the letters look like. Supervised learning can be divided into two categories; classification and regression. Character recognition belongs to the classification category.
-
-To execute this phase, we need to get a training data set, choose a supervised learning classifier, train a model, test the model and see how accurate it is, then use the model for prediction.
-
-There are several classifiers we can use with each of them having its advantages and disadvantages. We’ll use SVC (support vector classifiers) for this task. I chose to use SVC because it gave me the best performance. However, this does not necessarily mean that SVC is the best classifier.
+Scope:
+● License Plate Recognition System majorly consists of the four major processes: Acquiring
+the image, Localizing the number plate, Segmenting and Recognizing Characters.
+● The digits recognized are processed to extract the vehicle’s registered information with the e-pravahan agency.
+● Retrieving the information such as Chassis No.,◈ Engine No.,◈ Owner Name,◈ Vehicle
+Class,◈ Fuel Type,◈ Vehicle Maker/Model,◈ Registration Upto, and ◈ Insurance expiry date.
+● Feature extraction of the vehicle price prediction dataset.
+● Predicting the price of the vehicle with high accuracy.
