@@ -11,8 +11,12 @@ The purpose is to develop an Android application that integrates the vehicle pri
 Scope:
 ● License Plate Recognition System majorly consists of the four major processes: Acquiring
 the image, Localizing the number plate, Segmenting and Recognizing Characters.
+
 ● The digits recognized are processed to extract the vehicle’s registered information with the e-pravahan agency.
+
 ● Retrieving the information such as Chassis No.,◈ Engine No.,◈ Owner Name,◈ Vehicle
 Class,◈ Fuel Type,◈ Vehicle Maker/Model,◈ Registration Upto, and ◈ Insurance expiry date.
+
 ● Feature extraction of the vehicle price prediction dataset.
+
 ● Predicting the price of the vehicle with high accuracy.
