@@ -1,14 +1,14 @@
 # Vehicle-Price-Prediction_through_ANPR
     
-PROBLEM STATEMENT:
 
-Overview:
+
+# Overview:
 This project is an Android application that recognizes the license plate of a vehicle, then uses this information to extract the registered details of the vehicle with the Regional Transport Office through web scraping and processes these details to predict the current price of the vehicle.
 
-Purpose:
+# Purpose:
 The purpose is to develop an Android application that integrates the vehicle prize prediction with information extraction by coming up with a system to scan the license plate of a vehicle quickly and easily with the camera of a smartphone or tablet, the app recognizes license plate within the camera image and uses the information to extract the registered details of the vehicle with the Regional Transport Office through web scraping and processes these details to predict the current price of the vehicle.
 
-Scope:
+# Scope:
 ● License Plate Recognition System majorly consists of the four major processes: Acquiring
 the image, Localizing the number plate, Segmenting and Recognizing Characters.
 
